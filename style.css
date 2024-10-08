@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jersey+15&display=swap");
+
+/*   ||  RESET  ||   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*   ||  UTILITIES  ||   */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*   ||  BODY  ||   */
+
+body {
+  background-color: #000;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp {
+  width: 30rem;
+  height: 15rem;
+  font-family: "Dosis";
+  background-image: linear-gradient(45deg, cyan, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: hsla(0, 0%, 0%, 0);
+  text-shadow: -6px -6px white, -8px -8px white;
+  position: fixed;
+  top: 10rem;
+  font-size: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  user-select: none;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 10rem;
+  background-color: rgb(127, 255, 127);
+  color: #333;
+  border-radius: 25px;
+  font-size: 1rem;
+  box-shadow: 6px 6px white;
+  user-select: none;
+}
+
+button:hover {
+  background-color: rgb(177, 255, 177);
+}
+
+button:active {
+  background-color: rgb(177, 255, 177);
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+/*   ||  FOOTER  ||   */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  opacity: 0.5;
+  user-select: none;
+}
